@@ -1,0 +1,51 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+@import '../../node_modules/bootstrap/scss/bootstrap-utilities.scss';
+@import '../../node_modules/bootstrap/scss/variables';
+@import '../../node_modules/bootstrap/scss/maps';
+@import '../../node_modules/bootstrap/scss/mixins/';
+@import '../../node_modules/bootstrap/scss/mixins';
+@import '../../node_modules/bootstrap/scss/utilities';
+@import '../../node_modules/bootstrap/scss/helpers';
+@import '../../node_modules/bootstrap/scss/utilities/api';
+
+
+@import '../../node_modules/@fortawesome/fontawesome-free/css/all.css';
+// @import 'tempusdominus-bootstrap-4/src/sass/tempusdominus-bootstrap-4-build'; 
+
+
+a {
+    color: #343a40;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: #343a40;
+}
+.img-thumbnail {
+    width: 200px; /* Sesuaikan dengan lebar yang Anda inginkan */
+    height: auto; /* Biarkan tinggi otomatis menyesuaikan agar gambar tidak terdistorsi */
+}
+
+#selected-table {
+    margin-top: 20px; /* Sesuaikan jarak vertikal sesuai kebutuhan */
+    display: block;
+}
+
+#btn-show-tables {
+    width: 100%;
+}
+
+#wrapper{
+    width: 280px;
+    margin: 0 auto;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px; 
+}
